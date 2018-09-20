@@ -14,7 +14,7 @@ class Solution:
         dictionary = {}
         for i in range(len(self.nums)):
             dictionary[self.nums[i]] = self.nums.index(self.nums[i])
-            if (self.target - self.nums[i]) in dictionary:
+            if (self.target - self.nums[i]) in dictionary and dictionary[self.target - self.nums[i]] != i:
                 return [dictionary[self.target - self.nums[i]], i]
                 break
         else:
