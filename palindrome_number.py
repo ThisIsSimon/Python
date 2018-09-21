@@ -1,4 +1,4 @@
-# https://leetcode.com/problems/reverse-integer/description/
+# https://leetcode.com/problems/palindrome-number/description/
 
 # [key : value]
 # [input_num: reversed_num
