@@ -110,7 +110,6 @@ def _retrieve_write(file_path):
 
 project_id = 1234
 branch = "foo"
-# Expires on December 14th
 private_token = "your_token"
 
 # Get all repository API paths
