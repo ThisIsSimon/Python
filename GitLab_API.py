@@ -32,19 +32,6 @@ def _get_commit_id():
 
     return commit_id
 
-def _is_recent(datetime_parameter, path):
-    # Determine if the given datetime parameter happened today within the last five minutes
-    time_minus_five = dt.datetime.now() - dt.timedelta(minutes=5)
-
-    if (
-        str(dt.datetime.now().date()) == datetime_parameter['date'] and
-        time_minus_five.time().isoformat('seconds') < datetime_parameter['time'] < dt.datetime.now().time().isoformat('seconds')
-       ):
-        # Runs the function to retrieve the SQL text and writes it
-        print('do something')
-    else:
-        print('Commit not within the last five minutes')
-
 
 def _get_file_path():
     # URL to get all existing paths within the project
