@@ -1,3 +1,5 @@
+# https://leetcode.com/problems/implement-strstr/
+
 haystack = "aaaaa"
 needle = "bba"
 
