@@ -49,4 +49,4 @@ The prototype takes extracts that have made commits in the last five minutes and
 3.	Function _get_sql_content() looks through the files and checks if the last_commit_id exists in the _get_commit_id()* function and if it does, it will execute _retrieve_write() to retrieve the query and write it out to a specific location.
 
 
-*  _get_commit_id() is a function that retrieves all commits made today and calls _is_recent() to check if they have been committed within the last five minutes.
+\*  _get_commit_id() is a function that retrieves all commits made today and calls _is_recent() to check if they have been committed within the last five minutes.
