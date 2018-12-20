@@ -33,8 +33,11 @@ The prototype takes extracts that have made commits in the last five minutes and
 
 ###### GitLab API References
 • [Commits](https://docs.gitlab.com/ee/api/commits.html#list-repository-commits)
+
 • [Repository Files](https://docs.gitlab.com/ee/api/repository_files.html)
+
 • [Repositories](https://docs.gitlab.com/ee/api/repositories.html)
+
 
 
 ## Design
