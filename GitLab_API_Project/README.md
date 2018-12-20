@@ -14,7 +14,9 @@ Objective:
 Context:
 
 •	As a developer, I want to eliminate the manual process of moving changes made on GitLab to the server.
+
 •	As an analyst, I want to make changes to the extracts and reports without to make changes in Git and the server.
+
 •	As a manager, I want to eliminate the need to grant individuals access as changes occur, or train existing and new hires to work on manual processes.
 
 
